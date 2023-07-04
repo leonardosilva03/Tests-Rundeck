@@ -20,7 +20,7 @@
   sequence:
     commands:
     - exec: echo $HOME
-    keepgoing: true
+    keepgoing: false
     strategy: node-first
   uuid: 2fb668e1-87f5-43db-875b-d60a71256a8b
 
