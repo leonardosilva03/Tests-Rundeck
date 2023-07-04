@@ -1,0 +1,26 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: true
+  id: 2fb668e1-87f5-43db-875b-d60a71256a8b
+  loglevel: INFO
+  name: teste
+  nodeFilterEditable: false
+  nodefilters:
+    dispatch:
+      excludePrecedence: true
+      keepgoing: true
+      rankOrder: ascending
+      successOnEmptyNodeFilter: false
+      threadcount: '1'
+    filter: .*
+  nodesSelectedByDefault: true
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: echo $HOME
+    keepgoing: true
+    strategy: node-first
+  uuid: 2fb668e1-87f5-43db-875b-d60a71256a8b
+
